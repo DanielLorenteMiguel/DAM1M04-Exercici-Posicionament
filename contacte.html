@@ -1,2 +1,68 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ca"></html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacte - Lumina</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+    <nav class="menu-fixed">
+        <div class="logo">La Meva Botiga</div>
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="productes.html">Productes</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="titol-pagina">Contacta amb nosaltres</h1>
+
+        <div class="contact-layout">
+            
+            <div class="column">
+                <h2>Envia un correu</h2>
+                <form action="mailto:info@lumina.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="nom">Nom:</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correu electrònic:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="missatge">Missatge:</label>
+                        <textarea id="missatge" name="missatge" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="column">
+                <h2>Informació de contacte</h2>
+                <div class="info-item">
+                    <strong>Adreça:</strong> C/ Major 123, Barcelona
+                </div>
+                <div class="info-item">
+                    <strong>Horari:</strong> Dilluns a Divendres[cite: 1]
+                </div>
+                <div class="info-item">
+                    <strong>Telèfon:</strong> +34 930 000 000[cite: 1]
+                </div>
+                
+                <div class="map-fictici">
+                    Mapa Fictici (Caixa Grisa)[cite: 1]
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>©2026 Lumina. Tots els drets reservats.</p>
+    </footer>
+
+</body>
+</html>
